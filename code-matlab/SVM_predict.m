@@ -18,10 +18,10 @@ testK = kernelDeal(X, model.sv, model.type, model.gamma, model.d);
 pred = testK * model.svAlpha + model.b;
 
 if nargin == 3
-    pred = sign(testK * model.svAlpha + model.b);
-    pred(pred > 0) = model.labelA;
-    pred(pred < 0) = model.labelB;
-    accu = sum(pred == Y) / length(Y) * 100;
+    predt = zeros(size(pred));
+    predt(pred >= 0) = model.labelA;
+    predt(pred <  0) = model.labelB;
+    accu = sum(predt == Y) / length(Y) * 100;
 end
 
 end
