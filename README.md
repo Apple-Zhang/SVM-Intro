@@ -12,6 +12,10 @@
 - **SVM_intro_2022.pdf**: 修改了2021版中的错误，重新绘制了部分图片.
 - **SVM_intro_2023.pdf**: 重新调整了讲解内容（删除感知机，同时更侧重对偶理论的解释）和顺序，添加部分图片.
 
+## Video (Bilibili)
+- [2023年课程录像](https://www.bilibili.com/video/BV1TP411U7dH)
+
+
 ## Optional Notes (PDF)
 - **duality.pdf**: 讲解有关凸优化中对偶理论的原理，需要凸优化方面的基础知识.
 
